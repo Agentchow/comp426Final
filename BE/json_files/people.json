@@ -1,0 +1,14 @@
+{
+    "people": [
+        {
+        "firstName": "",
+        "lastName": "",
+        "age": "",
+        "creditScore": "",
+        "income": "",
+        "progress": "",
+        "module": "" 
+    }
+    ]
+
+}
