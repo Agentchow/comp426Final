@@ -1,9 +1,19 @@
 {
     "messageBoard": [
         {
-            "message": "",
-            "sender": "",
-            "email": ""
+            "message": "Any advice for saving money for college?",
+            "sender": "Rajat",
+            "email": "testemail@gmail.com"
+        },
+        {
+            "message": "How to imporve my credit score?",
+            "sender": "Dylan",
+            "email": "testemail@gmail.com"
+        },
+        {
+            "message": "Where can I get more info on Module 5?",
+            "sender": "Charles",
+            "email": "testemail@gmail.com"
         }
     ]
 
