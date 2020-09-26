@@ -1,14 +1,61 @@
 {
     "people": [
         {
-        "firstName": "",
-        "lastName": "",
-        "age": "",
-        "creditScore": "",
+        "firstName": "Rajat",
+        "lastName": "Rathee",
+        "age": "18",
+        "creditScore": "n/a",
         "income": "",
-        "progress": "",
+        "progress": "40",
+        "module": "" 
+    },
+    {
+        "firstName": "Aidan",
+        "lastName": "Handa",
+        "age": "18",
+        "creditScore": "n/a",
+        "income": "",
+        "progress": "70",
+        "module": "" 
+    },
+    {
+        "firstName": "Charles",
+        "lastName": "Chow",
+        "age": "18",
+        "creditScore": "n/a",
+        "income": "",
+        "progress": "50",
         "module": "" 
     }
+    ],
+    "alumni": [
+        {
+            "firstName": "Dylan",
+            "lastName": "Bao",
+            "age": "18",
+            "creditScore": "780",
+            "income": "",
+            "progress": "100",
+            "module": "" 
+        },
+        {
+            "firstName": "Anthony",
+            "lastName": "",
+            "age": "18",
+            "creditScore": "650",
+            "income": "",
+            "progress": "100",
+            "module": "" 
+        },
+        {
+            "firstName": "Katherine",
+            "lastName": "Legan",
+            "age": "18",
+            "creditScore": "720",
+            "income": "",
+            "progress": "100",
+            "module": "" 
+        }
     ]
 
 }
