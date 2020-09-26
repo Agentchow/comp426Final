@@ -1,7 +1,6 @@
 import json
 
-app = Flask(__name__)
-CORS(app)
+data = {}
 
 @app.route("/", methods = ["GET"])
 def home():
