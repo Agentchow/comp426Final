@@ -19,7 +19,7 @@ import React, { Component } from "react";
 import { Grid, Row, Col, Table } from "react-bootstrap";
 
 import Card from "components/Card/Card.jsx";
-import { thArray, tdArray } from "variables/Variables.jsx";
+import { thArray, tdArray } from "variables/Variables copy.jsx";
 
 class TableList extends Component {
   render() {
@@ -60,7 +60,7 @@ class TableList extends Component {
             <Col md={12}>
               <Card
                 plain
-                title="Links to resources"
+                title="Links to more resources"
                 ctTableFullWidth
                 ctTableResponsive
                 content={

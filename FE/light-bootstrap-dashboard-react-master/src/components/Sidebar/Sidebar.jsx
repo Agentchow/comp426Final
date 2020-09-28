@@ -8,11 +8,11 @@
 * Copyright 2019 Creative Tim (https://www.creative-tim.com)
 * Licensed under MIT (https://github.com/creativetimofficial/light-bootstrap-dashboard-react/blob/master/LICENSE.md)
 
-* Coded by Creative Tim
+* Coded by Creative Timß
 
 =========================================================
 
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+* The above copyright notice and this permissionß notice shall be included in all copies or substantial portions of the Software.
 
 */
 import React, { Component } from "react";
@@ -20,7 +20,7 @@ import { NavLink } from "react-router-dom";
 
 import AdminNavbarLinks from "../Navbars/AdminNavbarLinks.jsx";
 
-import logo from "assets/img/reactlogo.png";
+import logo from "assets/img/logo.png";
 
 class Sidebar extends Component {
   constructor(props) {
@@ -50,14 +50,14 @@ class Sidebar extends Component {
         data-color={this.props.color}
         data-image={this.props.image}
       >
-          {this.props.hasImage ? (
-            <div className="sidebar-background" style={sidebarBackground} />
-          ) : (
+        {this.props.hasImage ? (
+          <div className="sidebar-background" style={sidebarBackground} />
+        ) : (
             null
           )}
         <div className="logo">
           <a
-            href="https://www.creative-tim.com?ref=lbd-sidebar"
+            href="/"
             className="simple-text logo-mini"
           >
             <div className="logo-img">
@@ -65,10 +65,10 @@ class Sidebar extends Component {
             </div>
           </a>
           <a
-            href="https://www.creative-tim.com?ref=lbd-sidebar"
+            href="/"
             className="simple-text logo-normal"
           >
-            Creative Tim
+            <b>My</b>Path
           </a>
         </div>
         <div className="sidebar-wrapper">

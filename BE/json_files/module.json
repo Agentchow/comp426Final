@@ -1,13 +1,62 @@
 {
-    "moduleName": "",
-    "module": [
+    "modules": [
         {
-            "modeuleNumber": "",
-            "Decription": "",
-            "Sections" : [
+            "moduleName": "Learning about Banking",
+            "iconName": "pe-7s-culture",
+            "moduleNumber": 1,
+            "description": "Here you'll get a basic intro into how to open, manage, and maintain a bank account.",
+            "sections": [
                 {
-                    "SectionOne" : "",
-                    "SectionTwo" : ""
+                    "name": "Opening a Bank Account",
+                    "content": "Some amazing advice here."
+                },
+                {
+                    "name": "Managing your Bank Account",
+                    "content": "Some amazing advice here."
+                },
+                {
+                    "name": "Saving for the Future",
+                    "content": "Some amazing advice here."
+                }
+            ]
+        },
+        {
+            "moduleName": "Learning about Credit",
+            "iconName": "pe-7s-credit",
+            "moduleNumber": 2,
+            "description": "Here you'll get a basic intro into how credit works!",
+            "sections": [
+                {
+                    "name": "Opening a Bank Account",
+                    "content": "Some amazing advice here."
+                },
+                {
+                    "name": "Managing your Bank Account",
+                    "content": "Some amazing advice here."
+                },
+                {
+                    "name": "Saving for the Future",
+                    "content": "Some amazing advice here."
+                }
+            ]
+        },
+        {
+            "moduleName": "Learning about Investing",
+            "iconName": "pe-7s-display1",
+            "moduleNumber": 3,
+            "description": "Here you'll get a basic intro into how to make smart investments for your future.",
+            "sections": [
+                {
+                    "name": "Opening a Bank Account",
+                    "content": "Some amazing advice here."
+                },
+                {
+                    "name": "Managing your Bank Account",
+                    "content": "Some amazing advice here."
+                },
+                {
+                    "name": "Saving for the Future",
+                    "content": "Some amazing advice here."
                 }
             ]
         }

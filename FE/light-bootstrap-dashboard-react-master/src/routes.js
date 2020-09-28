@@ -15,71 +15,54 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import Dashboard from "views/Dashboard.jsx";
-import UserProfile from "views/UserProfile.jsx";
+import Communication from "views/Communication.jsx";
 import TableList from "views/TableList.jsx";
-import Typography from "views/Typography.jsx";
-import Icons from "views/Icons.jsx";
-import Maps from "views/Maps.jsx";
-import Notifications from "views/Notifications.jsx";
-import Upgrade from "views/Upgrade.jsx";
+import Analytics from "views/Analytics.jsx"
+import Education from "views/Education.jsx";
+import Onboarding from "views/Onboarding.jsx";
+import Simulations from "views/Simulations.jsx";
 
 const dashboardRoutes = [
   {
+    path: "/onboarding",
+    name: "Onboarding",
+    icon: "pe-7s-map-2",
+    component: Onboarding,
+    layout: "/admin"
+  },
+  {
     path: "/dashboard",
-    name: "Dashboard",
-    icon: "pe-7s-graph",
-    component: Dashboard,
+    name: "Education",
+    icon: "pe-7s-study",
+    component: Education,
+    layout: "/admin"
+  },
+  {
+    path: "/simulations",
+    name: "simulations",
+    icon: "pe-7s-plugin",
+    component: Simulations,
     layout: "/admin"
   },
   {
     path: "/user",
-    name: "User Profile",
-    icon: "pe-7s-user",
-    component: UserProfile,
+    name: "Communication",
+    icon: "pe-7s-speaker",
+    component: Communication,
     layout: "/admin"
   },
   {
     path: "/table",
-    name: "Table List",
-    icon: "pe-7s-note2",
+    name: "Resources",
+    icon: "pe-7s-bookmarks",
     component: TableList,
     layout: "/admin"
   },
   {
     path: "/typography",
-    name: "Typography",
-    icon: "pe-7s-news-paper",
-    component: Typography,
-    layout: "/admin"
-  },
-  {
-    path: "/icons",
-    name: "Icons",
-    icon: "pe-7s-science",
-    component: Icons,
-    layout: "/admin"
-  },
-  {
-    path: "/maps",
-    name: "Maps",
-    icon: "pe-7s-map-marker",
-    component: Maps,
-    layout: "/admin"
-  },
-  {
-    path: "/notifications",
-    name: "Notifications",
-    icon: "pe-7s-bell",
-    component: Notifications,
-    layout: "/admin"
-  },
-  {
-    upgrade: true,
-    path: "/upgrade",
-    name: "Upgrade to PRO",
-    icon: "pe-7s-rocket",
-    component: Upgrade,
+    name: "Analytics",
+    icon: "pe-7s-display1",
+    component: Analytics,
     layout: "/admin"
   }
 ];

@@ -276,6 +276,16 @@ const tdArray = [
   ["Partner 6", "partner6@gmail.com", "partner6.com"]
 ];
 
+const thArray1 = ["Partner Name", "Partner Email", "Partner Website"];
+const td1Array = [
+  ["John Doe", "johndoe@gmail.com", "johndoe.com"],
+  ["Bertha Yates", "Bertha@gmail.com", "BerthaYates.com"],
+  ["Griffin Pain", "grifp@gmail.com", "Griffin Pain.wordpress.com"],
+  ["Athena Barnet", "AthenaBarnett@gmail.com", "github.com/queenB"],
+  ["Aryaan Adam", "AryaanAdam .com", "AryaanAdam.com"],
+  ["Fabio Contreras", "FabioContreras@gmail.com", "FabioContreras.com"]
+];
+
 //
 // //
 // // // For icons
@@ -497,29 +507,31 @@ var dataPie = {
   series: [40, 20, 40]
 };
 var legendPie = {
-  names: ["Positive", "Negative", "Neutral"],
+  names: ["Open", "Bounce", "Unsubscribe"],
   types: ["info", "danger", "warning"]
 };
 
 // Data for Line Chart
 var dataSales = {
   labels: [
-    "09/20",
-    "09/21",
-    "09/22",
-    "09/23",
-    "09/24",
-    "09/25",
-    "09/26",
+    "9:00AM",
+    "12:00AM",
+    "3:00PM",
+    "6:00PM",
+    "9:00PM",
+    "12:00PM",
+    "3:00AM",
+    "6:00AM"
   ],
   series: [
+    [287, 385, 490, 492, 554, 586, 698, 695],
     [67, 152, 143, 240, 287, 335, 435, 437],
-    [1, 2, 1, 0, 0, 0, 2, 1]
+    [23, 113, 67, 108, 190, 239, 307, 308]
   ]
 };
 var optionsSales = {
   low: 0,
-  high: 24,
+  high: 800,
   showArea: false,
   height: "245px",
   axisX: {
@@ -538,7 +550,7 @@ var responsiveSales = [
     "screen and (max-width: 640px)",
     {
       axisX: {
-        labelInterpolationFnc: function (value) {
+        labelInterpolationFnc: function(value) {
           return value[0];
         }
       }
@@ -546,8 +558,8 @@ var responsiveSales = [
   ]
 ];
 var legendSales = {
-  names: ["Students", "Alumni"],
-  types: ["info", "danger"]
+  names: ["Open", "Click", "Click Second Time"],
+  types: ["info", "danger", "warning"]
 };
 
 // Data for Bar Chart
@@ -584,7 +596,7 @@ var responsiveBar = [
     {
       seriesBarDistance: 5,
       axisX: {
-        labelInterpolationFnc: function (value) {
+        labelInterpolationFnc: function(value) {
           return value[0];
         }
       }

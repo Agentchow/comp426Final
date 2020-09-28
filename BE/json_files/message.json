@@ -1,20 +1,44 @@
 {
     "messageBoard": [
         {
+            "title": "College?",
             "message": "Any advice for saving money for college?",
             "sender": "Rajat",
-            "email": "testemail@gmail.com"
+            "email": "testemail@gmail.com",
+            "timestamp": "2020-09-26T10:06:04.209578",
+            "id": "fee0f95d-1571-4dcd-9256-9e1d614bd2db",
+            "comments": [
+                {
+                    "content": "This is great!",
+                    "name": "Aidan"
+                },
+                {
+                    "content": "something",
+                    "name": "amazong"
+                },
+                {
+                    "content": "sakljdfasd",
+                    "name": "sdafkjlasdf"
+                }
+            ]
         },
         {
+            "title": "I just got a credit card!",
             "message": "How to imporve my credit score?",
             "sender": "Dylan",
-            "email": "testemail@gmail.com"
+            "email": "testemail@gmail.com",
+            "timestamp": "2020-09-26T10:06:02.209578",
+            "id": "fee0f95d-1571-4dcd-9256-9e1d614bd2dc",
+            "comments": []
         },
         {
+            "title": "Help!",
             "message": "Where can I get more info on Module 5?",
             "sender": "Charles",
-            "email": "testemail@gmail.com"
+            "email": "testemail@gmail.com",
+            "timestamp": "2020-09-26T10:06:01.209578",
+            "id": "fee0f95d-1571-4dcd-9256-9e1d614bd2dd",
+            "comments": []
         }
     ]
-
 }
